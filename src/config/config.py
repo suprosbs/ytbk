@@ -26,10 +26,10 @@ def get_env(name: str, default=None):
 
 # general settings
 WORKERS: int = get_env("WORKERS", 100)
-APP_ID: int = get_env("APP_ID")
-APP_HASH = get_env("APP_HASH")
-BOT_TOKEN = get_env("BOT_TOKEN")
-OWNER = [int(i) for i in str(get_env("OWNER")).split(",")]
+APP_ID: int = get_env("25194442")
+APP_HASH = get_env("9e93d41112872cc3bd58f4e29fd82c0a")
+BOT_TOKEN = get_env("7619364034:AAHsuBrDWONcUzCPv8iMBehfh7GeojenSWk")
+OWNER = [int(i) for i in str(get_env("7651377821")).split(",")]
 # db settings
 AUTHORIZED_USER: str = get_env("AUTHORIZED_USER", "")
 DB_DSN = get_env("DB_DSN")
